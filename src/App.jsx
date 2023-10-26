@@ -9,7 +9,6 @@ import Contact from './components/contactMe/Contact';
 import Footer from './components/footer/Footer';
 import reportWebVitals from "./reportWebVitals";
 
-
 const App = ReactDOM.createRoot(document.getElementById("App"));
 App.render(
   <React.StrictMode>
