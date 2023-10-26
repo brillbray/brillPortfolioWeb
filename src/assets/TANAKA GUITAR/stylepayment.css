@@ -1,0 +1,329 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+/*Animated*/
+@keyframes slideInRight{
+	to{transform:translateX(1px)}
+	from{transform:translateX(-260px)}
+}
+
+@keyframes slideInDown{
+	from{transform: translateY(-50px);}
+	to{transform:translateY(60px)}
+}
+
+@keyframes fadeInUp{
+	from{opacity:0;transform: translateY(120px);}
+	to{opacity:1;transform:translateY(20px)}
+}
+
+@keyframes fadeInDown{
+	from{opacity:0;transform: translateY(-50px);}
+	to{opacity:1;transform:translateY(60px)}
+}
+
+.animSlideInR{
+	animation-name: slideInRight; 
+	animation-duration: .8s;
+	animation-fill-mode: forwards;  
+}
+
+.animSlideInD{
+	animation-name: slideInDown;
+	animation-delay: .1s;
+	animation-duration: 1.2s;
+	animation-fill-mode: forwards;
+}
+
+.animFadeInUp{
+	animation-name: fadeInUp;
+	animation-delay: .1s;
+	animation-duration: 1.2s;
+	animation-fill-mode: forwards;
+}
+
+.animFadeInDown{
+	animation-name: fadeInDown;
+	animation-delay: .1s;
+	animation-duration: 1.2s;
+	animation-fill-mode: forwards;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(100deg,
+    black,
+    rgba(28, 4, 48, 0.707),
+    black);
+    z-index:3;
+}
+ 
+header .logo #img1{
+    max-width: 60px;
+}
+ 
+header ul {
+    position: relative;
+    display: flex;
+}
+ 
+header ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;  
+}
+ 
+header ul li a{
+   
+    font-weight:200;
+    font-size: 1.2em;
+    margin: 0 15px;
+    text-decoration: none;
+    border-radius: 1rem;   
+    color: rgb(255, 255, 255);
+}
+ 
+header ul li a:hover{
+    color: #fbff00;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin: 60px;
+    font-size: 3em;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 5em;
+    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 50px;
+}
+
+form{
+    font-size: 25px;
+    color: white;
+    padding:5rem;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+  
+form .inputBox{
+    display: flexbox;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.inputBox input{
+    padding:.7rem;
+    font-size: 1.5rem;
+    text-transform: none;
+    margin:1rem 0;
+    width:35%;
+    color: rgb(0, 0, 0);
+}
+
+span{
+    color: red;
+    font-size: .8em;
+} 
+    
+i{
+    color: rgb(0, 255, 64);
+    letter-spacing: 0;
+    font-size: 1em;  
+}
+
+.creditCard{
+    width: 2em;
+    display: inline;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#paypalIMG{
+    margin-left: 28px;
+}
+
+#CCN{
+    font-weight: 300;
+    background-image: url('Content Image/Card.png');
+    background-size: 75px;
+    background-position-y: center;
+    background-position-x:right;
+    background-repeat: no-repeat;
+}
+
+#month,#year{
+    width: 30%;
+    height: 5vh;
+    font-size: 1em;
+    padding-left: .5em;
+}
+
+.btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 25px 0 10px 0;
+    padding: 1.2em 1.5em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover, .btn:focus {
+    color: rgb(0, 0, 0);
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out .5s;
+}
+
+#reset{
+    padding: 1em;
+}
+
+@media screen and (max-width:800px){ 
+    header ul{
+		display: none;
+	}
+
+	.burger{
+		position: relative;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		background: url(burgerMenu.png);
+		background-position: center;
+		background-size: 30px;
+		background-repeat: no-repeat;
+		z-index: 3;   
+  } 
+
+  .burger.active{
+		position: fixed;
+		left: 10px;
+		background: url(closeBurgerMenu.png);
+		background-size: 20px;
+		background-position: center;
+		background-repeat: no-repeat;
+		animation: ease 1s;
+  }  
+
+  header ul.nav.active{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 45%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background: linear-gradient(rgb(37, 35, 37),rgb(20, 20, 42),rgb(0, 0, 0));
+		z-index:2;     
+		background-repeat: no-repeat;
+	} 
+
+	header ul li a 
+	{
+		font-size: 1em;
+		font-weight: 300; 
+		line-height: 4em;     
+		background-color: none;  
+	} 
+
+    p{
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    form{
+        font-size: 25px;
+        color: white;
+        padding:5rem;
+    }
+    
+    .box{
+        margin: 2em;
+        border:3px solid rgb(255, 255, 255);
+        width: 100%;
+        margin-top: 50px;
+    }
+    .inputBox input{
+        padding:.7rem;
+        font-size: 1.5rem;
+        text-transform: none;
+        margin:1rem 0;
+        width:100%;
+        color: rgb(0, 0, 0);
+        border:.2rem solid rgba(255, 255, 255, 0.992);
+    }
+    #CCN{
+        font-weight: 300;
+        background:white;
+    }
+    .btn {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: .8em;
+        line-height: 1;
+        margin: 0px;
+        width: 250px;
+        padding: 1.2em 1em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    span{
+        font-size: 0.5em;
+    }
+    #month,#year{
+        width: 60%;
+        height: 5vh;
+        font-size: 1em;
+        padding-left: .5em;
+    }
+}

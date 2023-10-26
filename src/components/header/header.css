@@ -1,0 +1,117 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+}
+
+.header__container{
+    /* text-align: center; */
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+header h5{
+    font-size: 2em;
+}
+/* === CTA === */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.3rem; 
+}
+
+/* === HEADER SOCIALS=== */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    position: absolute;
+    left: 0;
+    bottom: 4rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* === ME === */
+.me{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    width: 25rem;
+    height: 23rem;
+    position: absolute;
+    left: 90%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    /* overflow: hidden; */
+}
+
+.scroll__down{
+    position: absolute;
+    right: -1.7rem;
+    bottom: 1rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+}
+
+.chat-me-scroll{
+    opacity: .6;
+    position: fixed;
+    bottom: 15px;
+    right: 28px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    background: var(--color-bg-variant);
+    transition: var(--transition);
+    color: transparent; 
+    cursor: pointer;
+}
+
+.chat-me-scroll:hover{    
+    padding: 17px 30px;
+    width: 168px;
+    color: var(--color-primary);
+}
+
+/* Responsive for medium devices */
+@media screen and (max-width: 1024px){
+    header{
+        height:100%;
+    }
+    
+    .chat-me-scroll{
+        display: none;
+    }
+    .me{
+        /* display: flexbox; */
+        position: relative;
+    }
+}
+
+/* Responsive for small devices */
+@media screen and (max-width: 600px){
+
+    .header__socials, 
+    .scroll__down{
+        /* display: none;    */
+        
+    }
+    .me{
+        max-width: 100%;
+        display:contents;
+    }
+    .chat-me-scroll{
+        display: none;
+    }
+   
+
+}

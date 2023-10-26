@@ -1,0 +1,1324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    transition: all .4s linear;
+}
+
+body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    background:rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+/*Animated*/
+@keyframes slideInRight{
+    to{transform:translateX(1px)}
+    from{transform:translateX(-260px)}
+}
+
+@keyframes slideInDown{
+    from{transform: translateY(-50px);}
+    to{transform:translateY(60px)}
+}
+
+@keyframes fadeInUp{
+    from{opacity:0;transform: translateY(120px);}
+    to{opacity:1;transform:translateY(20px)}
+}
+
+@keyframes fadeInDown{
+    from{opacity:0;transform: translateY(-50px);}
+    to{opacity:1;transform:translateY(60px)}
+}
+
+.animSlideInR{
+    animation-name: slideInRight; 
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;  
+}
+
+.animSlideInD{
+    animation-name: slideInDown;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.animFadeInUp{
+    animation-name: fadeInUp;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.animFadeInDown{
+    animation-name: fadeInDown;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.zoomOnHover:hover{
+    transform:scale(1.05);
+}
+
+
+/* BUTTON */
+.btn{
+    display: inline-block; 
+    margin-top: 1rem;
+    padding: 10px 25px;
+    background: rgb(67, 0, 81);
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+    content: '';
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom:2px solid white;
+    border-radius: 2rem
+}
+
+.btn:hover{
+    transition:.3s;
+    background:red;
+}
+/* BUTTON END*/
+
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(100deg,
+    black,
+    rgba(28, 4, 48, 0.707),
+    black);
+    z-index:3;
+}
+
+header .logo #img1{
+    max-width: 60px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;  
+}
+
+header ul li a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100;
+    font-size: 1.2em;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header ul li a:hover{
+    color: #fbff00;
+}
+
+#Category, #Gallery{
+    margin-top: 3rem;
+}
+/* content for main page */
+.content{
+    position: relative;
+    width: 100%;
+    display:flex;
+    margin: 7rem 0 1rem 4rem;
+    justify-content: space-between;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 700px;
+}
+
+.content .textBox #Home{
+    color: white;
+    font-size: 3em;
+    font-weight: 700; 
+    margin-top: auto;
+    padding:1em 0 0 0; 
+}
+
+.content .textBox h2{
+    color: white;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+.content .textBox h2 span{
+    color:rgb(124, 255, 2);
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+.content .textBox p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.content .textBox strong{
+    color: red;
+}
+
+.content .textBox #cart img{
+    width: 4rem;
+    margin-top: 30px;
+}
+
+.content .imgBox #imgGtr{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+.heading{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding:2em;
+    font-size: 2rem;
+    padding-bottom: 1em;
+}
+
+.heading span{
+    color: rgb(246, 255, 0);   
+}
+
+/* CATEGORY */
+.home #Category{
+    font-size: 2rem;
+}
+
+.home{
+    display: flexbox;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: 0 auto;  
+    justify-content: space-between;
+}
+    
+.gtrCtgr{
+    margin:75px auto;
+    float: left;
+    width: 15rem;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+.gtrCtgr a{
+    text-decoration: none;
+}
+
+.gtrCtgr p{
+    padding: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #ffffff;
+    font-size: .7em;
+}
+
+.gtrCtgr img{
+    width: 100%;
+    height: 100%; 
+}
+
+.gtrCtgr:hover {
+    border:1.5px solid #fcfcfc;
+    box-shadow: 2px 2px 20px 2px rgb(244, 34, 6);
+}
+
+/* Promo Banner */
+.PromoBannerContainer{
+    display: flex;
+    flex-wrap:wrap;  
+    gap:3rem;  
+    overflow: hidden;
+    overflow-y: hidden;
+}
+  
+.PromoBannerContainer .banner{  
+    flex:1 1 0;
+    height: 30vh;
+}
+  
+.PromoBannerContainer .banner img{
+    width:100%;
+    height: 100%;
+    object-fit: cover; 
+}
+  
+.PromoBannerContainer .banner .contentPromo{
+    position: absolute;
+    top:50%; left: 5%;
+    transform: translateY(-50%);
+}
+  
+.PromoBannerContainer .banner .contentPromo h3{
+    font-size:2.8rem;
+    color:white;
+}
+  
+.PromoBannerContainer .banner .contentPromo p{
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+}
+  
+.PromoBannerContainer .banner:hover img{
+    transform:scale(1.2) rotate(-3deg);
+}
+
+
+/* Gallery*/
+
+.gallery{
+    margin-top: 3rem;
+    padding: 3rem;  
+}
+
+.gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem; 
+    padding:3rem 3rem;  
+}
+
+.gallery .box-container .box{
+    flex:1 1 20rem;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);   
+    overflow: hidden;
+    border-radius: 3rem 2rem 3rem 1rem;
+    opacity: 5%;
+    box-sizing: border-box;
+}
+
+.gallery .GalleryGuitarCategory{
+    font-size: 3em;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Sue Ellen Francisco', cursive; 
+}
+
+.gallery .box-container .box:hover{
+    box-shadow:1px 5px 10px 5px rgb(255, 0, 0);
+    transition: .2s;
+}
+
+.gallery .box-container .box  .galleryIMG{
+    height: 25rem;
+    margin: 10px 0px 0px 0px;
+    z-index: 5;
+}
+  
+.gallery .box-container .box .discount{
+    position: absolute;
+    top:.5rem; left: .6rem;
+    background:rgb(93, 27, 27);
+    color:rgb(255, 255, 255);
+    padding:.7rem 1rem;
+    font-size: 1rem;
+    border-radius: 12rem 0 12rem 0;
+}
+
+.prod_name{
+    color:rgb(0, 0, 0);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+   
+.gallery .box-container .box .price{
+    font-size: 1.4rem;
+    color:rgb(0, 0, 0);
+    padding:.5rem 0;
+}
+  
+.box .substract span{
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+  
+.gallery .box-container .box .quantity{
+    margin: 2rem auto 2rem;
+    width: 60%;
+}
+  
+.gallery .box-container .box .quantity span{
+    padding:0 1rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+  
+.gallery .box-container .box .quantity input{
+    border:.2rem solid rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    padding:.5rem;
+}
+  
+.gallery .box-container .box .btn{
+    display: block;
+    text-transform: capitalize;    
+}
+
+.btnGallery{
+    display: inline-block;
+    padding: 10px 2rem;
+    background: rgb(88, 4, 36);
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    content: '';
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom:2px solid white;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+.btnGallery:hover{
+    transition:.3s;
+    background:transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.editBassIMG{
+    width: 101%;
+}
+
+.member{
+    width: 80%;
+    margin: 10rem auto 4rem;
+    border: 2px solid white;
+    border-radius: 3rem 10rem 3rem 10rem;
+}
+.member form{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding:5rem;
+}
+  
+.member form .inputBox{
+    display: flexbox;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+  
+.member .inputBox input{
+    padding:.8rem;
+    font-size: 1.5rem;
+    text-transform: none;
+    margin:1rem 0;
+    width:45%;
+    color: rgb(0, 0, 0);
+    border:.1rem solid rgba(187, 187, 187, 0.992);
+}
+
+#date{
+    color: rgb(0, 0, 0);
+}
+.member form #btn{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.member form #btn:hover{
+    background: rgb(252, 5, 5);
+    color: white;
+    transition: ease .3s;
+}
+
+.member form span{
+    color: red;
+    font-size: .7em;
+}
+    
+.member i{
+    color: rgb(0, 255, 64);
+    letter-spacing: 3px;
+    font-size: .6em;
+}
+
+
+.about-section {
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 2rem;
+    overflow-y: hidden;
+}
+
+.aboutUs{
+    text-align: center;
+    color: #ffffff;
+    padding: 6rem;
+    font-size: 1.6em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutUs .box{
+    display: flex;
+}
+
+.about-section .aboutUs{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.about-section img{
+    width: 33.3%;
+    height: 50%;
+    margin-top: 50px;
+    margin: 15px;
+}
+
+.about-section #aboutus1{
+    width: 29.9%;
+}
+
+
+.contactUs-section .box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.contactUs-section .box #temp1{
+    color: rgb(255, 255, 255);
+    margin: 45px 30px 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 4px;
+}
+
+.contactUs-section .box #temp2{
+    color: rgb(255, 255, 255);
+    margin: 45px 25px 50px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 7px;
+}
+
+.contactUs-section .box #temp3{
+    color: rgb(255, 255, 255);
+    margin: 45px 35px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 7px; 
+}
+
+.contactUs-section p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color:white; 
+    text-align: center;
+}
+
+.contactUs-section .box #logoIG{
+    width: 100px; 
+    height: 125px;
+}
+
+.contactUs-section .box #logoFB{
+    width: 75px;
+    height: 75px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.contactUs-section .box #logoPhone{
+    width:74px;
+    height: 74px;
+    margin-top: 28px;
+    margin-left:80px;
+}
+
+
+.webDev-Section .box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.webDev-Section h2{
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.webDev-Section h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.webDev-Section .box-container .box{
+    text-align: center;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(255, 25, 0);
+    border-radius: 0 5rem 0 5rem;
+    height: 30%;
+    width: 450px;
+    margin-bottom: 6rem;
+}
+
+.webDev-Section .box-container .box:hover{
+    text-align: center;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    border:3px solid #4609ff;
+    height: 30%;
+    width: 450px;
+}
+
+.webDev-Section img{
+    margin-left: 65px;
+    width: 70%;
+}
+
+
+/*Footer*/
+.container{
+	max-width: 2500px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+    padding: 0px 30px;
+    background-color: #000000;
+    border:2px #000000;
+}
+
+.footerCol{
+   width: 25%;
+   padding: 20px 80px;
+}
+
+.footerCol h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative; 
+}
+
+.footerCol h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #fbff00;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footerCol ul li:not(:last-child){
+	margin-bottom: 19px;
+}
+
+.footerCol ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footerCol ul li a:hover{
+	color: #ffffff;
+	padding-left: 15px;
+}
+
+.footerCol .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(87, 26, 178, 0.746);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 1s ease;
+}
+
+.footerCol .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}    
+
+@media (max-width: 550px)
+{
+    .footerCol{
+        width: 100%;
+    }
+}
+
+/*Footer Closing*/
+
+/*REQUIREMENTS*/
+/*mobile*/
+@media screen and (max-width:800px){ 
+    section{
+        position: relative;
+        width: 100%;
+        margin-top: -60px;  
+        padding:3rem 3%;      
+        background: rgb(0, 0, 0);
+        overflow: hidden;
+    }  
+
+    body .PromoBannerContainer .banner{  
+        height: 15Vh;
+        overflow: hidden;
+    }
+    
+    body .PromoBannerContainer .banner .contentPromo h3{
+        font-size:2em;
+        color:white;
+    }
+      
+    body .PromoBannerContainer .banner .contentPromo p{
+        font-size: 1.5rem;
+        color:rgb(255, 255, 255);
+    }
+    
+    body .GalleryGuitarCategory {
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seri;
+    }
+    
+    
+    .heading{
+        font-size: 30px;      
+    }
+    
+    header{
+        padding: 20px;
+    }
+
+    header .logo{
+        max-width:70px;
+    }
+
+    header ul{
+        display:none;
+    }  
+
+    .content{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+
+    .content .textBox{
+        max-width: 100%;
+    }
+
+    .content .textBox #Home{
+        padding-top: 0;
+        font-size: 3em;
+        line-height: 4rem;
+        font-weight: 100;
+    }
+
+    .content .textBox h2{
+        color: white;
+        font-size: 1.9em;       
+    }
+
+    .content .textBox h2 span{
+        font-size: .9em;
+    }
+
+    .content .textBox p{
+        color: white;
+        font-size: 1em;     
+    }
+
+    .content .imgBox{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        padding-top: 50px;
+        padding-right:50px; 
+    }
+
+    .content .imgBox #imgGtr{
+
+        max-width: 100%;
+        margin-top: 0px;
+    }
+
+    .btn{
+        display: inline-block; 
+        margin-top: 25px;
+        padding: 5px 25px;
+        background: rgb(18, 47, 59);
+        color:rgb(255, 255, 255);
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 1.3em;
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.75);
+        content: '';
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom:1px solid white;
+    }
+    
+    .btn:hover{
+        transition: 0.6s;
+        background-color:red;
+    }
+
+    .burger{
+        position: relative;
+        margin-right: 1px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(burgerMenu.png);
+        background-position: center;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        z-index: 3;   
+    } 
+
+    .burger.active{
+        position: fixed;
+        left: 10px;
+        background: url(closeBurgerMenu.png);
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: ease 1s;
+    }  
+
+    header ul.nav.active{
+        padding-bottom: 5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(rgb(37, 35, 37),rgb(20, 20, 42),rgb(0, 0, 0));
+        z-index:2;     
+        background-repeat: no-repeat;
+    } 
+
+    header ul li a 
+    {
+        font-size: 1em;
+        font-weight: 300; 
+        line-height: 4em;       
+    } 
+
+    .home{   
+        width:100%;
+        margin-top: 0;
+    }
+
+    .home #Category{
+        font-size: 1.2rem;   
+        text-align: center;
+    }
+
+    .home .heading{
+        margin-top: 60px;
+        font-size: 2em;
+        color: white;
+        text-align: center;        
+    }
+    
+    .gtrCtgr{
+        margin:10px 15px;
+        float: left;
+        width: 110px;
+        padding:35px 0px;
+        box-shadow: none;      
+    }
+
+    .gtrCtgr img{
+        width: 100%;
+    }
+
+    .gtrCtgr a{
+        text-decoration: none;
+    }
+
+    .gtrCtgr p{
+        padding: 15px;
+        padding-bottom: 35px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 0.7em;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .gtrCtgr:hover {
+        border:none;
+        box-shadow: none;
+    }
+
+
+    body .PromoBannerContainer .banner .contentPromo h3 {
+        font-size: .8em;
+        color: white;
+    }
+
+    body .PromoBannerContainer .banner .contentPromo p {
+        font-size: .6em;
+        line-height: 30px;
+        color: rgb(255, 255, 255);
+    }
+
+    body .PromoBannerContainer .banner .contentPromo .btn {
+        display: inline-block;
+        margin-top: 1px;
+        padding: 5px 15px;
+        background: rgb(18, 47, 59);
+        color: rgb(255, 255, 255);
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: .5em;
+        text-shadow: 1px 2px 3px rgb(0 0 0 / 75%);
+        content: '';
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+  
+
+    .gallery{
+        margin: 3rem 1rem 3rem 0;
+    }
+
+    .gallery .GalleryGuitarCategory{
+       font-size: 7em;     
+    }
+
+    .gallery #accGtr,#accELGtr,
+     #clscGtr, #elcGtr, #bassGtr {
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        font-family: 'Tangerine', cursive;
+    }
+
+    .gallery .box-container{   
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding:15px 30px;
+        position: relative;
+        width: 100%;
+    }
+     
+    .gallery .box-container .box{
+        grid-template-rows: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .gallery .box-container .box:hover{
+        transform: scaleX(110%);
+        transform: scaleY(105%);
+        box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+    }
+
+    .gallery #Gallery{
+        font-size: 1.2rem;
+        
+    }
+    .gallery .GalleryGuitarCategory{
+          color: rgb(255, 255, 255);
+          font-size: 1em;
+          text-align: center;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seri
+    }
+    .gallery .box-container .box .galleryIMG{
+        width: 100%;
+    }
+      
+    .gallery .box-container .box .discount{
+        position: absolute;
+        top:1rem; left: 0.5rem;
+        color:rgb(255, 255, 255);
+        padding:.5rem 1rem;
+        font-size: 1rem;
+    }
+         
+    .gallery .box-container .box h3{
+        color:rgb(0, 0, 0);
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+      
+    .gallery .box-container .box .price{
+        font-size: 1.5rem;
+        color:rgb(0, 0, 0);
+        padding:.5rem 0rem;
+    }
+      
+    .gallery .box-container .box .price span{
+        font-size: .9rem;
+        color:rgb(0, 0, 0);
+        text-decoration: line-through;
+    }
+      
+    .gallery .box-container .box .quantity{
+        margin: 2rem auto 2rem;
+        width: 100%;
+    }
+      
+    .gallery .box-container .box .quantity span{
+        padding:0.3rem;
+        font-size: .8rem;
+        color: rgb(0, 0, 0);
+        text-transform: capitalize;
+    }
+      
+    .gallery .box-container .box .quantity input{
+        border:.1rem solid rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: bold;
+        color:rgb(0, 0, 0);
+        padding:.1rem .4rem;
+        background:rgba(255, 255, 255, 0.05);
+    }
+
+    .btnGallery{
+        display: inline-block;
+        padding: 10px 2rem;
+        background: rgb(88, 4, 36);
+        color:rgb(255, 255, 255);
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1em;
+        content: '';
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        border-bottom:2px solid white;
+        text-transform: capitalize;
+        border-radius: 30px;
+    }
+    
+    .btnGallery:hover{
+        transition:.3s;
+        background:transparent;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+
+    .member form{
+        margin-bottom: 3rem;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        padding:1rem;
+    }
+      
+    .member form .inputBox{
+        display: flexbox;
+        justify-content: space-between;
+        flex-wrap: wrap;    
+    }
+      
+    .member .inputBox input{
+        font-size: 1rem;
+        background:#ffffff;
+        text-transform: none;
+        margin:.5rem 0;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    .about-section {
+        margin-top: 3rem;
+    }
+
+    .contactUs-section{
+        margin: 2rem auto 2rem;
+    }  
+
+    .contactUs-section .box #logoIG{
+        width: 85px; 
+    }
+
+    .contactUs-section .box #logoFB{
+        width: 55px;
+        height: 55px;
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+
+    .contactUs-section .box #logoPhone{
+        width:64px;
+        height: 64px;
+        margin-top: 28px;
+        margin-left:60px;
+    }
+    
+    .contactUs-section .box #temp1{
+        color: rgb(255, 255, 255);
+        margin: 45px 5px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px;
+    }
+    
+    .contactUs-section .box #temp2{
+        color: rgb(255, 255, 255);
+        margin: 45px 10px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px;
+    }
+    
+    .contactUs-section .box #temp3{
+        color: rgb(255, 255, 255);
+        margin: 45px 30px 50px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px; 
+    }
+    
+    .contactUs-section p{
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        color:white; 
+        text-align: center;
+    }
+
+
+    .footerCol{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 0px;       
+        padding-left:2rem;
+    }
+
+    .footer ul li{
+        list-style: none;
+    }
+    
+    .footerCol ul li a{
+        font-size: 15px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 100;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+} 
+
+
+
+@media screen and (max-width:600px){ 
+    .gallery .box-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.2rem;
+    }
+    .gallery .box-container .box .discount{
+        font-size: 1rem;
+        padding: .7rem;
+    }
+
+}
+@media screen and (max-width:400px){ 
+    .heading{
+        padding: 0;
+    }
+    .content{
+        padding: 3rem 5rem 0 0;
+    }
+    .gallery .box-container{   
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding:25px 30px;
+        position: relative;
+        width: 100%;
+    }
+
+    .gallery .box-container .box h3{
+        font-size: .8rem;
+    }
+
+    .gallery .box-container .box .price {
+        font-size: 1rem;
+    }
+
+    .box .substract span {
+        font-size: .7rem;
+    }
+    .btnGallery{
+        font-weight: 100;
+    }
+    .contactUs-section{
+        width: 100%;
+        /* margin: 2rem auto 2rem; */
+    }  
+    .gallery .box-container .box .discount{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+    
+    .contactUs-section .box #logoIG{
+        width: 75px; 
+    }
+
+
+
+    .contactUs-section .box #logoFB{
+        width: 55px;
+        height: 55px;
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+
+    .contactUs-section .box #logoPhone{
+        width:64px;
+        height: 64px;
+        margin-top: 28px;
+        margin-left:60px;
+    }
+    
+    .contactUs-section .box #temp1{
+        color: rgb(255, 255, 255);
+        margin: 45px 5px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px;
+    }
+    
+    .contactUs-section .box #temp2{
+        color: rgb(255, 255, 255);
+        margin: 45px 10px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px;
+    }
+    
+    .contactUs-section .box #temp3{
+        color: rgb(255, 255, 255);
+        margin: 45px 30px 50px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 7px; 
+    }
+    
+    .contactUs-section p{
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        color:white; 
+        text-align: center;
+    }
+
+    .webDev-Section .box-container .box{
+        overflow: hidden;
+        position: relative;
+        border: 2px solid rgb(255, 25, 0);
+        border-radius: 0 5rem 0 5rem;
+        height: 30%;
+        width: 250px;
+        margin-bottom: 6rem;
+    }
+    .webDev-Section h2{
+        font-size: 1.3rem;
+    }
+}

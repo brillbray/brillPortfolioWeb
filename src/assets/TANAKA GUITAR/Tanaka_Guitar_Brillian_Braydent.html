@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>PROJECT BRILL TANAKA GUITAR</title>
+  <link rel="stylesheet" href="styleTG.css">
+  <!-- Untuk logo socmed -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<section>
+    <header>
+        <div class="logo animSlideInR">
+            <img id="img1" src="TgPutih.png">       
+        </div>
+        <div class="burger" onclick='burgerMenu();'></div>
+            <ul class="nav animSlideInR">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Member">Member</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>  
+    
+    </header>
+   
+    <div class="content">    
+        <div class="textBox">
+            <h1 class="animSlideInR " id="Home">Tanaka Guitar </h1>
+                <br>
+                <h2 class="animSlideInR">It's a Legendary <span> Guitar</span></h2>     
+            <p class="animSlideInR">Tanaka Guitar is a famous 
+                <br>
+                <strong>guitar store</strong> established in
+                <br>
+                August 2021
+            </p>
+            <br>        
+            <a class="btn animSlideInR" href="#Category">Learn More</a>   
+            
+            <div class="animFadeInUp" id="cart"><a href="cartList.html"> <img src="CartImg.png"> </a></div>      
+           
+        </div>
+        <div class ="imgBox">
+            <img class="animFadeInUp" id="imgGtr" src="Content Image/imggitar.jpg">
+        </div>
+    </div>  
+    <!-- content close -->
+ 
+    <!-- zoom on hover -->
+    <div class="zoomOnHover"></div>
+
+    <div class="galleryBtn3Rows"></div>
+
+    <div class="home">
+        <h3 id="Category" class="heading animFadeInDown ">Guitar <span>Categories</span></h3>  
+         
+            <div class="gtrCtgr animFadeInUp">
+                <a href="#accGtr">  
+                    <img class="zoomOnHover"  src="Content Image/AcousticGuitar.png">
+                    <p>Acoustic Guitar</p>
+                </a>
+            </div>    
+            <div class="gtrCtgr animFadeInUp" >
+                <a href="#clscGtr">
+                    <img class="zoomOnHover" src="Content Image/ClassicGuitar.png">
+                    <p>Classic Guitar</p>
+                </a>
+            </div>   
+            <div class="gtrCtgr animFadeInUp">
+                <a href="#elcGtr">
+                    <img class="zoomOnHover" src="Content Image/ElectricGuitar.png">
+                    <p>Electric Guitar</p>
+                </a>
+            </div>
+            <div class="gtrCtgr animFadeInUp">
+                <a href="#accELGtr">
+                   <img class="zoomOnHover" src="Content Image/ElektroAkustikGuitar.png">
+                    <p>Acoustic-Electric Guitar</p>
+                </a>
+            </div>
+            <div class="gtrCtgr animFadeInUp">
+                <a href="#bassGtr">
+                    <img class="zoomOnHover" src="Content Image/BassGuitar.png">
+                    <p>Bass Guitar</p>
+                </a>
+             
+            </div>    
+    </div>
+
+    <section class="PromoBannerContainer">
+        <div class="banner animFadeInUp">
+            <img src="Content Image/PromoBanner1.png" >
+             <div class="contentPromo">
+                <h3>Special Offer</h3>
+                <p>Up to 30% off</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        
+        <div class="banner animFadeInUp">
+            <img src="Content Image/PromoBanner2.png">
+            <div class="contentPromo">
+                <h3>Limited Offer</h3>
+                <p>Up to 40% off</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Acoustic Guitar Gallery  -->
+    <section class="gallery">
+        <h1 id="Gallery" class="heading">guitars <span>gallery</span></h1>
+        <div class ="GalleryGuitarCategory" id="accGtr">Acoustic Guitar</div>
+        <div class="box-container">
+            <div class="box animFadeInUp ">
+                <span class="discount">-4.90%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery1.png ">
+                <h3 class="prod_name">Yamaha FG800 Solid Top Acoustic Guitar</h3>
+      
+                <div class="price"> $389<sup>90 </sup></div>
+                <div class="substract"><span> $20.20</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-12.50%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery2.png" >
+                <h3 class="prod_name">Hummingbird Original - Antique Natural Guitar</h3>
+                <div class="price"> $3,499<sup>00</sup></div>
+                <div class="substract"><span> $500.00 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-15.39%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery3.png">
+                <h3 class="prod_name">Fender CD-60S BLK <br> Guitar</h3>
+                <div class="price"> $142<sup>59</sup> </div>
+                <div class="substract"><span> $25.80 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-11.51%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery4.png">
+                <h3 class="prod_name">Anchor Guitars Berlin Red CW AE Guitar</h3>
+                <div class="price"> $384<sup>59</sup> </div>
+                <div class="substract"> <span> $50.00 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-13.04%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery5.png">
+                <h3 class="prod_name">Anchor Guitars Berlin Denim AE Guitar</h3>
+                <div class="price"> $306<sup>36</sup> </div>
+                <div class="substract"><span> $45.95 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-24.14%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery6.png">
+                <h3 class="prod_name">Blue Moon Venus Cut <br> Guitar</h3>
+                <div class="price"> $958 <sup>75</sup>  </div>
+                <div class="substract"><span> $305.25 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-33%</span>
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery7.png">
+                <h3 class="prod_name">Luna Aurora Borealis, Rosewood Fretboard, White Sparkle Guitar </h3>
+     
+                <div class="price"> $189<sup>00</sup> </div>
+                <div class="substract"><span> $95.00 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-10.03%</span>
+
+                <img class="galleryIMG" src="IMG/Akustik/AkustikGitarGallery8.png">
+                <h3 class="prod_name">Cort Roselyn Limited Edition <br> Guitar</h3>
+
+                <div class="price"> $1,799<sup>40</sup>  </div>
+                <div class="substract"><span> $200.60 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Accoustic Eletric Guitar  -->
+    <section class="gallery">
+        <div class ="GalleryGuitarCategory" id="accELGtr">Acoustic-Electric Guitar</div>
+        <div class="box-container">
+            <div class="box animFadeInUp ">
+                <span class="discount">-7.52%</span>
+                <img class="galleryIMG" src="IMG/Akustik-Elektrik/AkustikElektrikGallery1.png">
+                <h3 class="prod_name">Ibanez PC12 MHCE OPN Grand Concert Acoustic - Electric Guitar</h3>
+      
+                <div class="price"> $277<sup>44 </sup></div>
+                <div class="substract"><span> $22.56</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-8.06%</span>
+                <img class="galleryIMG" src="IMG/Akustik-Elektrik/AkustikElektrikGallery2.png">
+                <h3 class="prod_name">Taylor 814ce Grand Auditorium 2014 Acoustic-Electric Guitar</h3>
+                <div class="price"> $570<sup>10</sup></div>
+                <div class="substract"><span> $50.00 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-15.39%</span> 
+                <img class="galleryIMG" src="IMG/Akustik-Elektrik/AkustikElektrikGallery3.png">
+                <h3 class="prod_name">Lava Me Pro <br> Acoustic - Electric Guitar</h3>
+                <div class="price"> $141<sup>79</sup> </div>
+                <div class="substract"><span> $25.80 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-11.51%</span>
+                <img class="galleryIMG" src="IMG/Akustik-Elektrik/AkustikElektrikGallery4.png">
+                <h3 class="prod_name">Ibanez AEG50 IBH Acoustic-Electric <br> Guitar Indigo Blue</h3>
+                <div class="price"> $414<sup>00</sup> </div>
+                <div class="substract"><span> $10.00 </span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-14.64%</span>
+                <img class="galleryIMG" src="IMG/Akustik-Elektrik/AkustikElektrikGallery5.png">
+                <h3 class="prod_name">Ovation 6 String, Right Handed, Ruby Red  <br>Acoustic-Electric Guitar</h3>
+                <div class="price"> $384<sup>10</sup> </div>
+                <div class="substract"><span> $65.90 </span> </div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div> 
+        </div>  
+    </section>
+
+    <!-- Classic Guitar -->
+    <section class="gallery">
+        <div class ="GalleryGuitarCategory" id="clscGtr">Classic Guitar</div>
+        <div class="box-container">
+            <div class="box animFadeInUp ">
+                <span class="discount">-7.52%</span>
+                <img class="galleryIMG" src="IMG/Classic/ClassicGallery1.png">
+                <h3 class="prod_name">Cordoba Dolce 7/8 Iberia Series Classic Guitar</h3>
+      
+                <div class="price"> $471<sup>94 </sup></div>
+                <div class="substract"><span> $3.6</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-2.70%</span>
+                <img class="galleryIMG" src="IMG/Classic/ClassicGallery2.png">
+                <h3 class="prod_name">Cordoba C1 Matiz Pale Sky</h3>
+      
+                <div class="price"> $292<sup>09 </sup></div>
+                <div class="substract"><span> $8.1</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+
+            <div class="box animFadeInUp ">
+                <span class="discount">-12.15%</span>
+                <img class="galleryIMG" src="IMG/Classic/ClassicGallery3.png">
+                <h3 class="prod_name">Cordoba C1 Matiz Coral</h3>
+      
+                <div class="price"> $257<sup>90 </sup></div>
+                <div class="substract"><span> $35.66</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+            
+            
+        </div>  
+    </section>
+
+    <!-- Electric Guitar -->
+    <section class="gallery">
+        <div class ="GalleryGuitarCategory" id="elcGtr">Electric Guitar</div>
+        <div class="box-container">
+            <div class="box animFadeInUp ">
+                <span class="discount">-5.88%</span>
+                <img class="galleryIMG" src="IMG/Electric/ElectricGallery1.png">
+                <h3 class="prod_name">Fender Player Offset Mustang 90 BBM</h3>
+      
+                <div class="price"> $960<sup>95 </sup></div>
+                <div class="substract"><span> $60.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+    
+            <div class="box animFadeInUp ">
+                <span class="discount">-6.56%</span>
+                <img class="galleryIMG" src="IMG/Electric/ElectricGallery2.png">
+                <h3 class="prod_name">ivy ILS-300 EGR Les Paul Solid-Body Electric Guitar, Emerald Green</h3>
+      
+                <div class="price"> $275<sup>05 </sup></div>
+                <div class="substract"><span> $25.80</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+
+            <div class="box animFadeInUp ">
+                <span class="discount">-11.49%</span>
+                <img class="galleryIMG" src="IMG/Electric/ElectricGallery3.png">
+                <h3 class="prod_name">Fender Contemporary Stratocaster Special HT, Laurel Fingerboard, 
+                    Black Pickguard</h3>
+      
+                <div class="price"> $407<sup>16 </sup></div>
+                <div class="substract"><span> $52.83</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input class="quantityInput" type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+        </div>  
+    </section>
+
+    <!-- Bass Guitar -->
+    <section class="gallery">
+        <div class ="GalleryGuitarCategory" id="bassGtr">Bass Guitar</div>
+        <div class="box-container">
+            <div class="box animFadeInUp ">
+                <span class="discount">-2.83%</span>
+                <img class="galleryIMG editBassIMG" src="IMG/Bass/BassGallery1.png">
+                <h3 class="prod_name">Fender Vintera '60s Jazz Bass Daphne Blue Bass Guitar</h3>
+      
+                <div class="price"> $1,553<sup>70 </sup></div>
+                <div class="substract"><span> $45.30</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>
+
+            <div class="box animFadeInUp ">
+                <span class="discount">-6.33%</span>
+                <img class="galleryIMG editBassIMG" src="IMG/Bass/BassGallery2.png">
+                <h3 class="prod_name">Aspire Bass Guitar 4S320 TBKS</h3>
+      
+                <div class="price"> $222<sup>54 </sup></div>
+                <div class="substract"><span> $15.03</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+
+            <div class="box animFadeInUp ">
+                <span class="discount">-3.23%</span>
+                <img class="galleryIMG editBassIMG" src="IMG/Bass/BassGallery3.png">
+                <h3 class="prod_name">ESP LTD B-205 SM STBLKS</h3>
+      
+                <div class="price"> $799<sup>03 </sup></div>
+                <div class="substract"><span> $26.63</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#"  class="btnGallery">add to cart</a>
+            </div>
+
+            <div class="box animFadeInUp ">
+                <span class="discount">-3.54%</span>
+                <img class="galleryIMG editBassIMG" src="IMG/Bass/BassGallery4.png">
+                <h3 class="prod_name">Ibanez SRMD200-CAM</h3>
+      
+                <div class="price"> $416<sup>76 </sup></div>
+                <div class="substract"><span> $15.30</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="50" value="1">
+                    <span> /Item </span>
+                </div>
+                <a href="#" class="btnGallery">add to cart</a>
+            </div>     
+        </div>  
+    </section>
+
+
+    <section class="member animFadeInUp" id="Member">
+
+        <h1 class="heading"> Member <span>Register</span></h1>
+        <form method="POST">  
+            <div class="inputBox">
+                <label for="firstname">First Name :  </label><input type="text" name="firstname" id="firstname" placeholder="Input your first name" autocomplete="off" onkeyup="validateFirstName()" required> 
+                <span id="FirstN-Error"></span>
+
+                <br>
+
+                <label for="lastname">Last Name :  </label><input type="text" name="lastname" id="lastname" placeholder="Input your last name" autocomplete="off" onkeyup="validateLastName()" required> 
+                <span id="LastN-Error"></span>
+
+                <br>
+
+                <label for="email"> Email ID :  </label><input type="text" name="email" id="email" placeholder="Input your email" autocomplete="off" onkeyup="validateEmail()" required> 
+                <span id="Email-Error"></span>
+
+                <br>
+
+                <label for="password">Password :  </label><input type="password" name="password" id="password" onkeyup="validatePassword()" placeholder="Input your email password" required>
+                <span id="Password-Error"></span>
+
+                <br>
+
+                <label for="address"> Address :  </label><input type="text" name="address" id="address" onkeyup="validateAddress()" placeholder="Input your address" autocomplete="off" required>
+                <span id="Address-Error"></span>
+
+                <br>
+
+                <label for="date">Registration Date : </label><input type="date" name="date" id="date">
+
+            </div> 
+            <br>
+            <label for=""> Gender : </label>
+                <input type="radio" name="gender" value="male" id="male"  onclick="checkGenderValid()">   Male
+                <input type="radio" name="gender" value="female" id="female"  onclick="checkGenderValid()">   Female
+                <input type="radio" name="gender" value="others" id="others"  onclick="checkGenderValid()">   Others  
+                <span id="Gender-Error"></span>        
+            <br>    
+            <br>
+            <input type="checkbox" name="agreeDailyLetter" id="agreeDailyLetter" onclick="checkAgreement()" value="accept">  I agree to receive daily letter to my email
+            <span id="agreeDailyL-Error"></span>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="agreeTerms" id="agreeTerms" onclick="checkAgreementTerms()" value="accept">  I accept the risk of the terms and conditions
+            <span id="agreeTerms-Error"></span>
+            
+            <br>
+            <input  type="button" id="btn" value="Submit" onclick="">
+        
+        </form>
+    
+    </section>
+
+    <section class="about-section">
+        <h1 class="heading"  id="AboutUs">About <span>Us</span></h1>
+        <p class="aboutUs">Tanaka Guitar is an online commercial company. 
+            The tanaka guitar organization has been formed since 2015 and will be legally formed in 2021.
+             In 2015, the Tanaka Guitar organization started selling branded guitars that are generally 
+             known. Tanaka Guitar also have many branded guitars that are sold, for example, such as Yamaha, Fender, 
+             Allen Eden, Cort Roselyn, Taylor, Ibanez, Lava Me, etc</p>
+ 
+            <div class="box-container animFadeInUp">  
+                <div class="box">
+                    <img class="zoomOnHover" id="aboutus1" src="Content Image/AboutUs1.jpg">  
+                    <img class="zoomOnHover" src="Content Image/AboutUs2.jpg">  
+                    <img class="zoomOnHover" src="Content Image/AboutUs3.jpg">  
+                </div>
+            </div>
+    </section>
+
+</section>
+<section class="contactUs-section">
+    <h1 class="heading" id="ContactUs">Contact <span>Us</span></h1>
+
+        <div class="box-container animFadeInUp">  
+            <div class="box">
+                <img id="logoIG" src="Content Image/InstagramLogo.png">
+                <h2 id="temp1">tanakaguitarweb</h2>
+            </div>
+            <div class="box">
+                <img id="logoFB"src="Content Image/FacebookLogo.png">
+                <h2 id="temp2">tanaka_guitar</h2>
+            </div>
+            <div class="box">
+                <img id="logoPhone"src="Content Image/PhoneLogo.png">
+                <h2 id="temp3">0812-3456-7890</h2>
+            </div>           
+                <p>Working Hours : 07.00 am - 18.00 pm</p>
+                <p>Store's location address : Rd. 4424 Titanium, 
+                    Beside Apt.2B, Number 10, 201343</p>        
+        </div>  
+</section>
+    <section class="webDev-Section animFadeInUp">
+        <h2>Web Developer</h2>
+        <div class="box-container">        
+            <div class="box">              
+                <img src="Content Image/Brillian(Binus).png">
+                <h3>Brill</h3>
+            </div>
+        </div>
+    </section> 
+
+    <footer class="footer animFadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="footerCol">
+                    <h4>Guitar Types</h4>
+                    <ul>
+                        <li><a href="#accGtr">Acoustic Guitar</a></li>
+                        <li><a href="#accELGtr">Acoustic-Electric Guitar</a></li>
+                        <li><a href="#elcGtr">Electric Guitar</a></li>
+                        <li><a href="#clscGtr">Classic Guitar</a></li>
+                        <li><a href="#bassGtr">Bass Guitar</a></li>
+                    </ul>
+                </div>
+                <div class="footerCol"> 
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="payment.html">Payment Methods</a></li>
+                        <li><a href="#AboutUs">About Website</a></li>
+
+                    </ul>
+                    
+                </div>
+                <div class="footerCol">
+                    <h4>References Link</h4>
+                    <ul>
+                        <li><a href="guitarImageReference.html">Guitar Image</a></li>
+                        <li><a href="fontReference.html">Font</a></li>
+                    </ul>
+                </div>              
+                <div class="footerCol">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/tanakaguitarweb/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+<script src="javaTG.js"></script>
+</body>
+</html>

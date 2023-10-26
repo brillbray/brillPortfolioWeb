@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="stylepayment.css">
+    <script src="javaPayment.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo animSlideInR">
+            <img id="img1" src="TgPutih.png">       
+         </div>
+         <div class="burger" onclick='burgerMenu();'></div>
+             <ul class="nav animSlideInR">
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Home">Home</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Gallery">Gallery</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Member">Member</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#AboutUs">About Us</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#ContactUs">Contact Us</a></li>
+             </ul>     
+    </header>  
+    <h1 class="animFadeInDown">Payment Method</h1>
+
+    <div class="container animFadeInUp">
+        <div class="box">
+            <form method="POST">  
+                    <div class="animSlideInR">
+                        <label class="text">What Payment Method Do You Prefer ??? </label>
+                        <br>        
+                        <input type="radio" name="Card" value="credit card" id="creditC">  <img class="creditCard" id="creditCardIMG" src="Content Image/Card.png">Credit Card
+                        <br>
+                        <input type="radio" name="Card" value="female" id="paypal" ><img class="creditCard" id="paypalIMG" src="Content Image/Card.png">Paypal
+                        <br>
+                        <br>
+                        <hr>
+                        <br>                  
+                        <div class="inputBox">                   
+                            <label class="animFadeInUp" for="CCN" >Credit Card Number </label>
+                            <br>
+                           
+                            <input type="tel" name="CCN" id="CCN" onkeyup="validateCCN()" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="19" required>
+                            <br>
+                            <span id="CCN-Error"></span>
+                            <br>
+                            <label class="animFadeInUp" >Expiry Date </label>
+                            <br>
+                            <br>
+                       
+                            <select id="month" name="month">
+                                <option id="temp" value="Month">Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+
+   
+                            <select id="year" name="year">
+                                <option value="Year">Year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                                <option value="2034">2034</option>
+                                <option value="2035">2035</option>
+                            </select>
+
+                            <br>
+                            <br>
+                            <hr>
+                        </div>
+
+                    <input  type="button" class="btn animSlideInR" value="Add payment method" onclick="btnAlert();">
+                    <input id="reset" type="reset" class="btn animSlideInR" value="Reset" onclick="">
+                </div>
+            </form>
+     
+        </div>
+      
+
+    </div>
+
+
+</body>
