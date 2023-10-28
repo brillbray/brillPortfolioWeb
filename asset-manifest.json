@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.e0c1e21b.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.330c547f.js",
+    "main.css": "/brillPortfolioWeb/static/css/main.f2246b39.css",
+    "main.js": "/brillPortfolioWeb/static/js/main.cfe6f007.js",
     "static/media/porto2.png": "/brillPortfolioWeb/static/media/porto2.1f712e957bf8cee78677.png",
     "static/media/draw1.png": "/brillPortfolioWeb/static/media/draw1.c8381a026d64aaf2b46f.png",
     "static/media/draw2.png": "/brillPortfolioWeb/static/media/draw2.255eb8470186d8f1fce8.png",
     "static/media/porto1.png": "/brillPortfolioWeb/static/media/porto1.f3ce57dbb333f2ca4ce8.png",
-    "static/media/fotoKarir_edit.png": "/brillPortfolioWeb/static/media/fotoKarir_edit.b88e69069a5a55b79f0c.png",
     "static/media/game1.png": "/brillPortfolioWeb/static/media/game1.309f3792af0df54d9f4e.png",
+    "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
     "static/media/cv.png": "/brillPortfolioWeb/static/media/cv.8f4a5c5b5203355fbd4a.png",
     "static/media/profilAnime.png": "/brillPortfolioWeb/static/media/profilAnime.1048a1ea7a92973e1e55.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.e0c1e21b.css.map": "/brillPortfolioWeb/static/css/main.e0c1e21b.css.map",
-    "main.330c547f.js.map": "/brillPortfolioWeb/static/js/main.330c547f.js.map"
+    "main.f2246b39.css.map": "/brillPortfolioWeb/static/css/main.f2246b39.css.map",
+    "main.cfe6f007.js.map": "/brillPortfolioWeb/static/js/main.cfe6f007.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c1e21b.css",
-    "static/js/main.330c547f.js"
+    "static/css/main.f2246b39.css",
+    "static/js/main.cfe6f007.js"
   ]
 }
