@@ -1,4 +1,4 @@
-    .about__container{
+.about__container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%; 
@@ -77,6 +77,9 @@
     color: var(--color-light);
 }
 
+p{
+    text-align: justify;
+}
 /* Responsive for medium devices */
 @media screen and (max-width: 1024px){
     .about__container{

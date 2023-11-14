@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolioHL.css'
 
-import game1 from '../../assets/GifGame.gif'
+import game1 from '../../assets/GifBrickeyGame.gif'
 
 const game = [
   {
@@ -25,7 +25,6 @@ const game = [
 ]
 
 
-
 const PortofolioHL = () => {
   return (
     <section>
@@ -41,17 +40,13 @@ const PortofolioHL = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolioHL__item-cta">
-                <a href={github} className='btnHL-mid' target="_blank">Visit Github</a>
-               
+                <a href={github} className='btnHL-mid' target="_blank">Visit Github</a>        
               </div>   
               </article>
             )
-          })
-          
+          })      
         }
       </div>
-     
-     
     </section>
   )
 }

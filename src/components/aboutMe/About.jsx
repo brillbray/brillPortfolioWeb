@@ -3,7 +3,6 @@ import './about.css'
 import ME from '../../assets/pp_karir_new.png'
 import {RiAwardFill} from 'react-icons/ri'
 import {FaUserFriends} from 'react-icons/fa'
-import {GoBook} from 'react-icons/go'
 
 const About = () => {
   return (
