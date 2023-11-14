@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.b6023130.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.02089672.js",
-    "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
-    "static/media/porto2.png": "/brillPortfolioWeb/static/media/porto2.1f712e957bf8cee78677.png",
-    "static/media/GifSpaceInvadersGame.gif": "/brillPortfolioWeb/static/media/GifSpaceInvadersGame.7ccf994e1bfdb890da61.gif",
-    "static/media/Dragon2D.png": "/brillPortfolioWeb/static/media/Dragon2D.46f9e8a6bf4b2ab9b4ee.png",
-    "static/media/Fruit2D.png": "/brillPortfolioWeb/static/media/Fruit2D.caba9a14e12d9fd12e45.png",
-    "static/media/porto1.png": "/brillPortfolioWeb/static/media/porto1.f3ce57dbb333f2ca4ce8.png",
-    "static/media/pp_karir_new.png": "/brillPortfolioWeb/static/media/pp_karir_new.cc728a5363cbedfe5717.png",
-    "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
-    "static/media/cv.png": "/brillPortfolioWeb/static/media/cv.be9305e3f1cd61b061a9.png",
-    "static/media/Sword - 3D.jpg": "/brillPortfolioWeb/static/media/Sword - 3D.e393ecc472fe485ad73e.jpg",
-    "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.ce6f8ebe36375791da9a.png",
-    "index.html": "/brillPortfolioWeb/index.html",
-    "main.b6023130.css.map": "/brillPortfolioWeb/static/css/main.b6023130.css.map",
-    "main.02089672.js.map": "/brillPortfolioWeb/static/js/main.02089672.js.map"
+    "main.css": "/static/css/main.b6023130.css",
+    "main.js": "/static/js/main.b338e541.js",
+    "static/media/GifBrickeyGame.gif": "/static/media/GifBrickeyGame.60308a606588f906a928.gif",
+    "static/media/porto2.png": "/static/media/porto2.1f712e957bf8cee78677.png",
+    "static/media/GifSpaceInvadersGame.gif": "/static/media/GifSpaceInvadersGame.7ccf994e1bfdb890da61.gif",
+    "static/media/Dragon2D.png": "/static/media/Dragon2D.46f9e8a6bf4b2ab9b4ee.png",
+    "static/media/Fruit2D.png": "/static/media/Fruit2D.caba9a14e12d9fd12e45.png",
+    "static/media/porto1.png": "/static/media/porto1.f3ce57dbb333f2ca4ce8.png",
+    "static/media/pp_karir_new.png": "/static/media/pp_karir_new.cc728a5363cbedfe5717.png",
+    "static/media/fotoDepan.png": "/static/media/fotoDepan.809b66754fd3bec446cf.png",
+    "static/media/cv.png": "/static/media/cv.be9305e3f1cd61b061a9.png",
+    "static/media/Sword - 3D.jpg": "/static/media/Sword - 3D.e393ecc472fe485ad73e.jpg",
+    "static/media/starfell.png": "/static/media/starfell.ce6f8ebe36375791da9a.png",
+    "index.html": "/index.html",
+    "main.b6023130.css.map": "/static/css/main.b6023130.css.map",
+    "main.b338e541.js.map": "/static/js/main.b338e541.js.map"
   },
   "entrypoints": [
     "static/css/main.b6023130.css",
-    "static/js/main.02089672.js"
+    "static/js/main.b338e541.js"
   ]
 }
