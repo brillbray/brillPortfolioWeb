@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import draw1 from '../../assets/draw1.png'
-import draw2 from '../../assets/draw2.png'
+import draw1 from '../../assets/Dragon2D.png'
+import draw2 from '../../assets/Fruit2D.png'
 // import 2dDraw3 from '../../assets/2dDraw3.png'
 // import draw4 from '../../assets/portfolio2.png'
 // import draw5 from '../../assets/portfolio2.png'
@@ -9,27 +9,29 @@ import draw2 from '../../assets/draw2.png'
 import webPorto1 from '../../assets/porto1.png'
 import webPorto2 from '../../assets/porto2.png'
 
-import game1 from '../../assets/game1.png'
-
+import game1 from '../../assets/GifBrickeyGame.gif'
+import game2 from '../../assets/GifSpaceInvadersGame.gif'
+import game3 from '../../assets/starfell.png'
+import threeDPorto1 from '../../assets/Sword - 3D.jpg'
 const game = [
   {
     id:1,
     image: game1 ,
     title: 'Brickey Game',
-    github: 'https://github.com/brillbray/GamesPortofolios'
+    github: 'https://github.com/brillbray/Brickey-Game'
   },
-  // {
-  //   id:2,
-  //   image: game1 ,
-  //   title: 'game1',
-  //   github: 'https://github.com/brillbray/GamesPortofolios'
-  // },
-  // {
-  //   id:3,
-  //   image: game1 ,
-  //   title: 'game1',
-  //   github: 'https://github.com/brillbray/GamesPortofolios'
-  // },
+  {
+    id:2,
+    image: game2 ,
+    title: 'Space Invaders Game',
+    github: 'https://github.com/brillbray/SpaceInvadersGame'
+  },
+  {
+    id:3,
+    image: game3 ,
+    title: 'Star Fell Games (On Going)',
+    github: ''
+  },
   // {
   //   id:4,
   //   image: game1 ,
@@ -111,7 +113,14 @@ const draw = [
 ]
 
 
-
+const threeD = [
+  {
+    id:1,
+    image: threeDPorto1 ,
+    title: 'Sword',
+  },
+  
+]
 const Portofolio = () => {
   return (
     <section id='portfolio'>
@@ -130,7 +139,6 @@ const Portofolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn btn-primary btn-mid' target="_blank">Github</a>
-                {/* <a href={"https://dribble.com/Alien_pixels"} className='btn btn-primary' target="_blank">Open</a> */}
               </div>   
               </article>
             )
@@ -149,7 +157,6 @@ const Portofolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn btn-primary btn-mid' target="_blank">Github</a>
-                {/* <a href={"https://dribble.com/Alien_pixels"} className='btn btn-primary' target="_blank">Open</a> */}
               </div>   
               </article>
             )
@@ -159,7 +166,7 @@ const Portofolio = () => {
       <h1 id='porto-h1'>2D Drawing Projects</h1>
       <div className="container portfolio__container">
         {
-          draw.map(({id, image, title, github}) => {
+          draw.map(({id, image, title}) => {
             return(
               <article className="portfolio__item">
               <div className="portfolio__item-image">
@@ -167,6 +174,22 @@ const Portofolio = () => {
               </div>
               <h3>{title}</h3>
              
+              </article>
+            )
+          })
+        }
+      </div>
+
+       <h1 id='porto-h1'>3D Modelling Mini Projects</h1>
+      <div className="container portfolio__container">
+        {
+          threeD.map(({id, image, title}) => {
+            return(
+              <article className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image}/>
+              </div>
+              <h3>{title}</h3>        
               </article>
             )
           })
