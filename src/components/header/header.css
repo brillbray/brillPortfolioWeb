@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
     display: flex;
     position:relative;
@@ -8,7 +8,6 @@ header{
 }
 
 .header__container{
-    /* text-align: center; */
     height: 100%;
     position: relative;
     justify-content: space-between;
@@ -26,13 +25,21 @@ header h5{
 
 /* === HEADER SOCIALS=== */
 .header__socials{
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction: row;
     align-items: center;
-    gap: .6rem;
-    position: absolute;
+    gap: 1.5rem;
+    position: relative;
     left: 0;
-    bottom: 4rem;
+    top:2.5rem;
+
+}
+
+.header__socials::before{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
 }
 
 .header__socials::after{
@@ -42,22 +49,24 @@ header h5{
     background: var(--color-primary);
 }
 
+
+
 /* === ME === */
 .me{
     /* background: linear-gradient(var(--color-primary),transparent); */
-    width: 25rem;
+    width: 35rem;
     height: 23rem;
     position: absolute;
     left: 90%;
     bottom: 2%;
     transform: translateX(-50%);
-    /* overflow: hidden; */
+    filter:brightness(.89);
 }
 
 .scroll__down{
     position: absolute;
-    right: -1.7rem;
-    bottom: 1rem;
+    right: -10rem;
+    bottom: 6rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
 }
@@ -82,32 +91,58 @@ header h5{
     color: var(--color-primary);
 }
 
+.cms-text{
+    transition-delay: 2ms;
+}
+
 /* Responsive for medium devices */
 @media screen and (max-width: 1024px){
     header{
-        height:100%;
+        height:100vh;
     }
     
     .chat-me-scroll{
         display: none;
     }
     .me{
-        /* display: flexbox; */
+        /* width:; */
         position: relative;
+        /* display:contents; */
+
+    }
+}
+
+@media screen and (max-width: 830px){
+    header{
+        height:100%; 
+    }
+    
+    .chat-me-scroll{
+        display: none;
+    }
+    .me{
+        position: relative;
+         display:inline-block; 
+        margin: 10rem -50% 5rem -40%;
     }
 }
 
 /* Responsive for small devices */
 @media screen and (max-width: 600px){
 
+    .header{
+        height:100vh;
+            
+    }
     .header__socials, 
     .scroll__down{
-        /* display: none;    */
-        
+        display: none;          
     }
     .me{
         max-width: 100%;
-        display:contents;
+        position: relative;
+        margin-top: 25rem;  
+        margin-bottom: -8rem; 
     }
     .chat-me-scroll{
         display: none;
