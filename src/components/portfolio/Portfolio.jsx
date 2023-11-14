@@ -9,7 +9,7 @@ import draw2 from '../../assets/Fruit2D.png'
 import webPorto1 from '../../assets/porto1.png'
 import webPorto2 from '../../assets/porto2.png'
 
-import game1 from '../../assets/GifBrickeyGame.gif'
+import game1 from '../../assets/GifGame.gif'
 import threeDPorto1 from '../../assets/Sword - 3D.jpg'
 const game = [
   {

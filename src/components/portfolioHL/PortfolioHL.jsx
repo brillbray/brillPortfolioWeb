@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolioHL.css'
 
-import game1 from '../../assets/GifBrickeyGame.gif'
+import game1 from '../../assets/GifGame.gif'
 
 const game = [
   {
