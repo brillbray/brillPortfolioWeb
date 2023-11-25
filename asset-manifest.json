@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.b6023130.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.02089672.js",
+    "main.css": "/brillPortfolioWeb/static/css/main.da459e74.css",
+    "main.js": "/brillPortfolioWeb/static/js/main.17c489d1.js",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
+    "static/media/GIFTEST.gif": "/brillPortfolioWeb/static/media/GIFTEST.0d72d1a4589206c5ab76.gif",
     "static/media/porto2.png": "/brillPortfolioWeb/static/media/porto2.1f712e957bf8cee78677.png",
     "static/media/GifSpaceInvadersGame.gif": "/brillPortfolioWeb/static/media/GifSpaceInvadersGame.7ccf994e1bfdb890da61.gif",
     "static/media/Dragon2D.png": "/brillPortfolioWeb/static/media/Dragon2D.46f9e8a6bf4b2ab9b4ee.png",
@@ -12,13 +13,14 @@
     "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
     "static/media/cv.png": "/brillPortfolioWeb/static/media/cv.be9305e3f1cd61b061a9.png",
     "static/media/Sword - 3D.jpg": "/brillPortfolioWeb/static/media/Sword - 3D.e393ecc472fe485ad73e.jpg",
-    "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.ce6f8ebe36375791da9a.png",
+    "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
+    "static/media/firewood.png": "/brillPortfolioWeb/static/media/firewood.999855ea5d693217c875.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.b6023130.css.map": "/brillPortfolioWeb/static/css/main.b6023130.css.map",
-    "main.02089672.js.map": "/brillPortfolioWeb/static/js/main.02089672.js.map"
+    "main.da459e74.css.map": "/brillPortfolioWeb/static/css/main.da459e74.css.map",
+    "main.17c489d1.js.map": "/brillPortfolioWeb/static/js/main.17c489d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6023130.css",
-    "static/js/main.02089672.js"
+    "static/css/main.da459e74.css",
+    "static/js/main.17c489d1.js"
   ]
 }
