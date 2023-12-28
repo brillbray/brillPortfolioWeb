@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.d179f347.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.362af269.js",
-    "static/media/trashBin (2).png": "/brillPortfolioWeb/static/media/trashBin (2).24d2dd42e5f4db9894bb.png",
+    "main.css": "/brillPortfolioWeb/static/css/main.073228aa.css",
+    "main.js": "/brillPortfolioWeb/static/js/main.4a1ed57d.js",
+    "static/media/M4A1.png": "/brillPortfolioWeb/static/media/M4A1.33c60ef9941393af6d5d.png",
+    "static/media/trashBin (2).png": "/brillPortfolioWeb/static/media/trashBin (2).1a0deb89f0d76c46e5d5.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
     "static/media/ukulele.png": "/brillPortfolioWeb/static/media/ukulele.ea8c3c9cc3302135bc4d.png",
     "static/media/GIFTEST.gif": "/brillPortfolioWeb/static/media/GIFTEST.0d72d1a4589206c5ab76.gif",
@@ -15,13 +16,14 @@
     "static/media/pp_karir_new.png": "/brillPortfolioWeb/static/media/pp_karir_new.cc728a5363cbedfe5717.png",
     "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
+    "static/media/TraditionalShop - 3D.png": "/brillPortfolioWeb/static/media/TraditionalShop - 3D.09c964fe99daf17ab483.png",
     "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.d179f347.css.map": "/brillPortfolioWeb/static/css/main.d179f347.css.map",
-    "main.362af269.js.map": "/brillPortfolioWeb/static/js/main.362af269.js.map"
+    "main.073228aa.css.map": "/brillPortfolioWeb/static/css/main.073228aa.css.map",
+    "main.4a1ed57d.js.map": "/brillPortfolioWeb/static/js/main.4a1ed57d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d179f347.css",
-    "static/js/main.362af269.js"
+    "static/css/main.073228aa.css",
+    "static/js/main.4a1ed57d.js"
   ]
 }
