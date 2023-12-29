@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.aaa12e4e.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.b8fa29c2.js",
-    "static/media/M4A1.png": "/brillPortfolioWeb/static/media/M4A1.33c60ef9941393af6d5d.png",
+    "main.css": "/brillPortfolioWeb/static/css/main.46022dac.css",
+    "main.js": "/brillPortfolioWeb/static/js/main.ee703667.js",
     "static/media/trashBin.png": "/brillPortfolioWeb/static/media/trashBin.1a0deb89f0d76c46e5d5.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
-    "static/media/ukulele.png": "/brillPortfolioWeb/static/media/ukulele.ea8c3c9cc3302135bc4d.png",
+    "static/media/guitar.png": "/brillPortfolioWeb/static/media/guitar.12dfd975d08ab5a68a43.png",
     "static/media/GIFTEST.gif": "/brillPortfolioWeb/static/media/GIFTEST.0d72d1a4589206c5ab76.gif",
+    "static/media/M4A1.png": "/brillPortfolioWeb/static/media/M4A1.bcc7cda587b62e6a85ac.png",
     "static/media/porto2.png": "/brillPortfolioWeb/static/media/porto2.1f712e957bf8cee78677.png",
     "static/media/GifSpaceInvadersGame.gif": "/brillPortfolioWeb/static/media/GifSpaceInvadersGame.7ccf994e1bfdb890da61.gif",
     "static/media/sword.png": "/brillPortfolioWeb/static/media/sword.1a94dc80439c72b45e92.png",
     "static/media/draw1.png": "/brillPortfolioWeb/static/media/draw1.a3605a7225c4ebb9d9b5.png",
     "static/media/Fruit2D.png": "/brillPortfolioWeb/static/media/Fruit2D.caba9a14e12d9fd12e45.png",
     "static/media/porto1.png": "/brillPortfolioWeb/static/media/porto1.f3ce57dbb333f2ca4ce8.png",
-    "static/media/cartoonHouse-4k.png": "/brillPortfolioWeb/static/media/cartoonHouse-4k.0f95934673f00d81612d.png",
-    "static/media/pp_karir_new.png": "/brillPortfolioWeb/static/media/pp_karir_new.ba236016cae5ef188935.png",
+    "static/media/cartoonHouse-4k.png": "/brillPortfolioWeb/static/media/cartoonHouse-4k.bf27f252886046570ee1.png",
     "static/media/isometric3D-4K.png": "/brillPortfolioWeb/static/media/isometric3D-4K.a841f738b1b61f12235f.png",
     "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
-    "static/media/TraditionalShop-4K.png": "/brillPortfolioWeb/static/media/TraditionalShop-4K.9be270db5e47910d44c5.png",
-    "static/media/characterCat3d-2k.png": "/brillPortfolioWeb/static/media/characterCat3d-2k.48cc98f1bf82af9e728d.png",
+    "static/media/TraditionalShop-4K.png": "/brillPortfolioWeb/static/media/TraditionalShop-4K.a7c1ce1592cff286200a.png",
+    "static/media/characterCat3d-2k.png": "/brillPortfolioWeb/static/media/characterCat3d-2k.e18ba9d201a453d7d47f.png",
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.aaa12e4e.css.map": "/brillPortfolioWeb/static/css/main.aaa12e4e.css.map",
-    "main.b8fa29c2.js.map": "/brillPortfolioWeb/static/js/main.b8fa29c2.js.map"
+    "main.46022dac.css.map": "/brillPortfolioWeb/static/css/main.46022dac.css.map",
+    "main.ee703667.js.map": "/brillPortfolioWeb/static/js/main.ee703667.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa12e4e.css",
-    "static/js/main.b8fa29c2.js"
+    "static/css/main.46022dac.css",
+    "static/js/main.ee703667.js"
   ]
 }
