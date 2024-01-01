@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.053b9e79.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.c415955e.js",
+    "main.css": "/brillPortfolioWeb/static/css/main.e5d3ff2b.css",
+    "main.js": "/brillPortfolioWeb/static/js/main.8e90e192.js",
     "static/media/trashBin.png": "/brillPortfolioWeb/static/media/trashBin.1a0deb89f0d76c46e5d5.png",
+    "static/media/thorHammer.png": "/brillPortfolioWeb/static/media/thorHammer.3b1443b49672226032d0.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
     "static/media/guitar.png": "/brillPortfolioWeb/static/media/guitar.12dfd975d08ab5a68a43.png",
     "static/media/GIFTEST.gif": "/brillPortfolioWeb/static/media/GIFTEST.0d72d1a4589206c5ab76.gif",
@@ -21,11 +22,11 @@
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.053b9e79.css.map": "/brillPortfolioWeb/static/css/main.053b9e79.css.map",
-    "main.c415955e.js.map": "/brillPortfolioWeb/static/js/main.c415955e.js.map"
+    "main.e5d3ff2b.css.map": "/brillPortfolioWeb/static/css/main.e5d3ff2b.css.map",
+    "main.8e90e192.js.map": "/brillPortfolioWeb/static/js/main.8e90e192.js.map"
   },
   "entrypoints": [
-    "static/css/main.053b9e79.css",
-    "static/js/main.c415955e.js"
+    "static/css/main.e5d3ff2b.css",
+    "static/js/main.8e90e192.js"
   ]
 }
