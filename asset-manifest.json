@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brillPortfolioWeb/static/css/main.a03d6553.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.8e90e192.js",
+    "main.js": "/brillPortfolioWeb/static/js/main.913b091f.js",
     "static/media/trashBin.png": "/brillPortfolioWeb/static/media/trashBin.1a0deb89f0d76c46e5d5.png",
     "static/media/thorHammer.png": "/brillPortfolioWeb/static/media/thorHammer.3b1443b49672226032d0.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
@@ -23,10 +23,10 @@
     "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
     "index.html": "/brillPortfolioWeb/index.html",
     "main.a03d6553.css.map": "/brillPortfolioWeb/static/css/main.a03d6553.css.map",
-    "main.8e90e192.js.map": "/brillPortfolioWeb/static/js/main.8e90e192.js.map"
+    "main.913b091f.js.map": "/brillPortfolioWeb/static/js/main.913b091f.js.map"
   },
   "entrypoints": [
     "static/css/main.a03d6553.css",
-    "static/js/main.8e90e192.js"
+    "static/js/main.913b091f.js"
   ]
 }
