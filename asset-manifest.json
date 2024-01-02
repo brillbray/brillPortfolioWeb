@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brillPortfolioWeb/static/css/main.e5d3ff2b.css",
+    "main.css": "/brillPortfolioWeb/static/css/main.a03d6553.css",
     "main.js": "/brillPortfolioWeb/static/js/main.8e90e192.js",
     "static/media/trashBin.png": "/brillPortfolioWeb/static/media/trashBin.1a0deb89f0d76c46e5d5.png",
     "static/media/thorHammer.png": "/brillPortfolioWeb/static/media/thorHammer.3b1443b49672226032d0.png",
@@ -22,11 +22,11 @@
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.2aafd187fbe60b85b771.png",
     "index.html": "/brillPortfolioWeb/index.html",
-    "main.e5d3ff2b.css.map": "/brillPortfolioWeb/static/css/main.e5d3ff2b.css.map",
+    "main.a03d6553.css.map": "/brillPortfolioWeb/static/css/main.a03d6553.css.map",
     "main.8e90e192.js.map": "/brillPortfolioWeb/static/js/main.8e90e192.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5d3ff2b.css",
+    "static/css/main.a03d6553.css",
     "static/js/main.8e90e192.js"
   ]
 }
