@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/brillPortfolioWeb/static/css/main.9c1fdd33.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.940f7bf1.js",
+    "main.js": "/brillPortfolioWeb/static/js/main.cd19e9b1.js",
     "static/media/M4A1-1.png": "/brillPortfolioWeb/static/media/M4A1-1.1d7dfba2f22e1a4c7d3d.png",
     "static/media/trashBin4.png": "/brillPortfolioWeb/static/media/trashBin4.ddc506777b1afb77a602.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
     "static/media/thorHammer2.png": "/brillPortfolioWeb/static/media/thorHammer2.8409959a800d00a93bae.png",
     "static/media/GIFTEST.gif": "/brillPortfolioWeb/static/media/GIFTEST.0d72d1a4589206c5ab76.gif",
-    "static/media/TraditionalShop-2K.png": "/brillPortfolioWeb/static/media/TraditionalShop-2K.15e2dd4ad6611a6b07f5.png",
+    "static/media/TraditionalShop-2K.png": "/brillPortfolioWeb/static/media/TraditionalShop-2K.2e2cec010fbd7ef6006b.png",
     "static/media/porto2.png": "/brillPortfolioWeb/static/media/porto2.1f712e957bf8cee78677.png",
     "static/media/GifSpaceInvadersGame.gif": "/brillPortfolioWeb/static/media/GifSpaceInvadersGame.7ccf994e1bfdb890da61.gif",
     "static/media/guitar2.png": "/brillPortfolioWeb/static/media/guitar2.1318def0bbf22d6007e6.png",
@@ -23,10 +23,10 @@
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "index.html": "/brillPortfolioWeb/index.html",
     "main.9c1fdd33.css.map": "/brillPortfolioWeb/static/css/main.9c1fdd33.css.map",
-    "main.940f7bf1.js.map": "/brillPortfolioWeb/static/js/main.940f7bf1.js.map"
+    "main.cd19e9b1.js.map": "/brillPortfolioWeb/static/js/main.cd19e9b1.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1fdd33.css",
-    "static/js/main.940f7bf1.js"
+    "static/js/main.cd19e9b1.js"
   ]
 }
