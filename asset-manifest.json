@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brillPortfolioWeb/static/css/main.9c1fdd33.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.cd19e9b1.js",
+    "main.js": "/brillPortfolioWeb/static/js/main.5253736e.js",
     "static/media/M4A1-1.png": "/brillPortfolioWeb/static/media/M4A1-1.1d7dfba2f22e1a4c7d3d.png",
     "static/media/trashBin4.png": "/brillPortfolioWeb/static/media/trashBin4.ddc506777b1afb77a602.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
@@ -23,10 +23,10 @@
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "index.html": "/brillPortfolioWeb/index.html",
     "main.9c1fdd33.css.map": "/brillPortfolioWeb/static/css/main.9c1fdd33.css.map",
-    "main.cd19e9b1.js.map": "/brillPortfolioWeb/static/js/main.cd19e9b1.js.map"
+    "main.5253736e.js.map": "/brillPortfolioWeb/static/js/main.5253736e.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1fdd33.css",
-    "static/js/main.cd19e9b1.js"
+    "static/js/main.5253736e.js"
   ]
 }
