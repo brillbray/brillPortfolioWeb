@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brillPortfolioWeb/static/css/main.9c1fdd33.css",
-    "main.js": "/brillPortfolioWeb/static/js/main.5e5661a4.js",
+    "main.js": "/brillPortfolioWeb/static/js/main.d333d332.js",
     "static/media/M4A1-1.png": "/brillPortfolioWeb/static/media/M4A1-1.1d7dfba2f22e1a4c7d3d.png",
     "static/media/trashBin4.png": "/brillPortfolioWeb/static/media/trashBin4.ddc506777b1afb77a602.png",
     "static/media/GifBrickeyGame.gif": "/brillPortfolioWeb/static/media/GifBrickeyGame.60308a606588f906a928.gif",
@@ -14,20 +14,20 @@
     "static/media/sword-3.png": "/brillPortfolioWeb/static/media/sword-3.4a41b807fb61d5f4f046.png",
     "static/media/draw1.png": "/brillPortfolioWeb/static/media/draw1.a3605a7225c4ebb9d9b5.png",
     "static/media/isometric3dLivingRoom-4K.png": "/brillPortfolioWeb/static/media/isometric3dLivingRoom-4K.183bcd7ee3f7b0261bd6.png",
+    "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.8092a3612bc93c13e768.png",
     "static/media/AnimeCharacter-4K.png": "/brillPortfolioWeb/static/media/AnimeCharacter-4K.bcd795e992bc045681e1.png",
     "static/media/Fruit2D.png": "/brillPortfolioWeb/static/media/Fruit2D.caba9a14e12d9fd12e45.png",
     "static/media/porto1.png": "/brillPortfolioWeb/static/media/porto1.f3ce57dbb333f2ca4ce8.png",
     "static/media/cat.png": "/brillPortfolioWeb/static/media/cat.feca53b54ae1ffbc3871.png",
     "static/media/cartoonHouse-4k.png": "/brillPortfolioWeb/static/media/cartoonHouse-4k.bf27f252886046570ee1.png",
-    "static/media/starfell.png": "/brillPortfolioWeb/static/media/starfell.a7755cd96eda32534115.png",
     "static/media/fotoDepan.png": "/brillPortfolioWeb/static/media/fotoDepan.809b66754fd3bec446cf.png",
     "static/media/Brillian Braydent CV.pdf": "/brillPortfolioWeb/static/media/Brillian Braydent CV.70d64514a901ca37d160.pdf",
     "index.html": "/brillPortfolioWeb/index.html",
     "main.9c1fdd33.css.map": "/brillPortfolioWeb/static/css/main.9c1fdd33.css.map",
-    "main.5e5661a4.js.map": "/brillPortfolioWeb/static/js/main.5e5661a4.js.map"
+    "main.d333d332.js.map": "/brillPortfolioWeb/static/js/main.d333d332.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1fdd33.css",
-    "static/js/main.5e5661a4.js"
+    "static/js/main.d333d332.js"
   ]
 }
