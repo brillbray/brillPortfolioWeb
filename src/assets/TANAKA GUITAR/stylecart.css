@@ -1,0 +1,275 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+ }
+ 
+ body{
+    background-color: black;
+ }
+ 
+ /*Animated*/
+ @keyframes slideInRight{
+    to{transform:translateX(1px)}
+    from{transform:translateX(-260px)}
+ }
+ 
+ @keyframes slideInDown{
+    from{transform: translateY(-50px);}
+    to{transform:translateY(60px)}
+ }
+ 
+ @keyframes fadeInUp{
+    from{opacity:0;transform: translateY(120px);}
+    to{opacity:1;transform:translateY(20px)}
+ }
+ 
+ @keyframes fadeInDown{
+    from{opacity:0;transform: translateY(-50px);}
+    to{opacity:1;transform:translateY(60px)}
+ }
+ 
+ .animSlideInR{
+    animation-name: slideInRight; 
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;  
+ }
+ 
+ .animSlideInD{
+    animation-name: slideInDown;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+ }
+ 
+ .animFadeInUp{
+    animation-name: fadeInUp;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+ }
+ 
+ .animFadeInDown{
+    animation-name: fadeInDown;
+    animation-delay: .1s;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+ }
+ 
+ 
+ header{
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(100deg,
+    black,
+    rgba(28, 4, 48, 0.707),
+    black);
+    z-index:3;
+ }
+ 
+ header .logo #img1{
+    max-width: 60px;
+ }
+ 
+ header ul {
+    position: relative;
+    display: flex;
+ }
+ 
+ header ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;  
+ }
+ 
+header ul li a{
+    font-weight:200;
+    font-size: 1.2em;
+    margin: 0 15px;
+    text-decoration: none;
+    border-radius: 1rem;   
+    color: rgb(255, 255, 255);
+}
+ 
+header ul li a:hover{
+    color: #fbff00;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+.container-cart{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.cart-header{
+    font-weight: 300;
+    font-size: 1.6em;
+    color: white;
+}
+
+.cart{
+    margin: 2em auto;
+}
+
+.cart-col{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.977);
+    margin-right:10em;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-price{
+    width: 23%;
+}
+
+.cart-quantity{
+    width: 10%;
+}
+
+.cart-TotalP{
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.cartTotalP-text{
+    font-size: 1.25em;
+    color: white;
+}
+
+.cartTotalP{
+    color: rgb(44, 255, 6);
+    font-size: 1.15;
+}
+
+.btn{
+    display: inline-block; 
+    margin-top: 25px;
+    padding: 5px 45px;
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 1.3em;
+    content: '';
+    border-radius: 30px;
+}
+
+.btn:hover{
+    transition: 0.6s;
+    background-color:rgb(41, 40, 40);
+    color: white;
+}
+
+.btnBuy{
+    display: block;
+    margin: 90px auto 10px auto;
+}
+
+.btn-remove{
+    color: white;
+    background-color: rgb(239, 19, 19);
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.btn-remove:hover{
+    background-color:rgb(172, 22, 22) ;
+}
+@media screen and (max-width:800px){ 
+	header ul{
+		display: none;
+	}
+
+	.burger{
+		position: relative;
+		margin-right: -70px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		background: url(burgerMenu.png);
+		background-position: center;
+		background-size: 30px;
+		background-repeat: no-repeat;
+		z-index: 3;   
+  } 
+
+  .burger.active{
+		position: fixed;
+		left: 10px;
+		background: url(closeBurgerMenu.png);
+		background-size: 20px;
+		background-position: center;
+		background-repeat: no-repeat;
+		animation: ease 1s;
+  }  
+
+  header ul.nav.active{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 45%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background: linear-gradient(rgb(37, 35, 37),rgb(20, 20, 42),rgb(0, 0, 0));
+		z-index:2;     
+		background-repeat: no-repeat;
+	} 
+
+	header ul li a 
+	{
+		font-size: 1em;
+		font-weight: 300; 
+		line-height: 4em;     
+		background-color: none;  
+	} 
+    .cart{
+        margin: 3em auto;
+    }
+    .cart-header{
+        width: 10px;
+        padding: 0;
+    }
+    .cart-row{
+        display: flex;
+    }
+    
+    .cart-price{
+        width: 23%;      
+    }
+    
+    .cart-quantity{
+        width: 10%;
+    }
+}
+  
+
+
+

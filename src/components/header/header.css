@@ -1,0 +1,190 @@
+/* .header__container{
+    padding-top: 3rem;
+    position: relative;  
+} */
+.header__container {
+    /* width: 100%;  */
+    padding-top: 3rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+/* LEFT */
+.header__left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header__container h5{
+    font-size: 2em;
+    margin-bottom: 0.5rem; /* smaller gap beneath heading */
+}
+
+/* === CTA === */
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem; 
+}
+
+.cta a{
+    white-space: nowrap;
+}
+
+.profilePhoto{
+    width:50%;
+}
+
+/* === HEADER SOCIALS=== */
+.header__socials{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    /* remove manual top offset, use margin for spacing */
+    margin-top: 2rem;
+}
+
+.header__socials::before{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.scroll__down{
+    scroll-behavior: smooth;
+    position: absolute;
+    right:-6rem;
+    bottom:8rem;
+    transform: rotate(90deg);
+    font-size: 0.9rem;
+}
+
+/* on narrower layouts move scroll link beneath content instead of absolute */
+@media (max-width: 1024px) {
+    .scroll__down {
+        position: relative;
+        right: auto;
+        bottom: 15rem;
+        /* transform: none; */
+        display: block;
+    }
+}
+
+/* .scroll__downs{
+    scroll-behavior: smooth;
+    position: absolute;
+    right: -6rem;
+    font-size: 0.9rem;
+} */
+
+.chat-me-scroll {
+    opacity: .6;    
+    position: fixed;
+    bottom: 25px;
+    right: 18px;
+    border-radius: 10%;
+    background: var(--color-bg-variant);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.cms-text {
+    padding-top:30px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.cms-text span {
+    color: transparent;
+    transition: color var(--transition); 
+}
+.chat-me-scroll:hover {    
+    padding: 18px 30px;
+    color: var(--color-primary);
+}
+
+.chat-me-scroll:hover .cms-text span {
+    color: var(--color-primary); 
+}
+
+
+/* Responsive for medium devices */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    /* switch to single-column layout before hitting mobile hide-breakpoint */
+    .header__container {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .header__right{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .chat-me-scroll{
+        display: none;
+    }
+    .scroll__down{
+        margin: 1rem auto 0;   
+        right: 0;
+    }
+    /* ensure right panel displays full width */
+    .header__right{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .header__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* Responsive for small devices */
+@media (min-width: 200px) and (max-width: 450px){
+    .scroll__down{
+        display: none;          
+    }
+
+    .chat-me-scroll{
+        display: none;
+    }
+    /* keep the CTA visible but stack and shrink buttons */
+    .cta{
+        flex-direction: column;
+        gap: 0.7rem;
+        align-items: center; /* horizontally center on narrow screens */
+    }
+    .cta a{
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .header__right{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+

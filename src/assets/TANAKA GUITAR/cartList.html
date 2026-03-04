@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart List</title>
+    <link rel="stylesheet" href="stylecart.css">
+    <script src="javaCart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo animSlideInR">
+            <img id="img1" src="TgPutih.png">       
+         </div>
+         <div class="burger" onclick='burgerMenu();'></div>
+             <ul class="nav animSlideInR">
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Home">Home</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Gallery">Gallery</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#Member">Member</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#AboutUs">About Us</a></li>
+                <li><a href="Tanaka_Guitar_Brillian_Braydent.html#ContactUs">Contact Us</a></li>
+             </ul>     
+    </header>
+ 
+    <section class="container-cart cart animFadeInUp">    
+        <h1 class="animFadeInDown">Cart</h1>
+            <div class="cart-row">
+                <h4 class="cart-item cart-header cart-col">ITEM</h4>
+                <h4 class="cart-price cart-header cart-col">PRICE</h4>
+                <h4 class="cart-quantity cart-header cart-col">QUANTITY</h4>                        
+            </div>
+           <div class="cart-addItems"></div>
+            <div class="cart-TotalP">
+                <p class="cartTotalP-text">Total</p>
+                <span class="cartTotalP">$0</span>
+            </div>
+          <button class="btn btnBuy" type="button">Buy</button>
+    </section>
+     
+    
+</body>
